@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  DSTMovie.m
 //  TEST
 //
 //  Created by Deniz Tutuncu on 2/15/19.
 //  Copyright © 2019 Deniz Tutuncu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "DSTMovie.h"
 
-@interface ViewController : UIViewController
-
+@implementation DSTMovie
 
 @end
-
