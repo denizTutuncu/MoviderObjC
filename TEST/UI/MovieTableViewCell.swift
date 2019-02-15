@@ -9,16 +9,35 @@
 import UIKit
 
 class MovieTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    @IBOutlet weak var titleLable: UILabel!
+    @IBOutlet weak var overviewLabel: UILabel!
+    @IBOutlet weak var ratingLabel: UILabel!
+    @IBOutlet weak var movieImageView: UIImageView!
+    
+    
+    
+    var movies: DSTMovie?{
+        didSet{
+            updateViews()
+        }
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    var movieImage: UIImage? {
+        didSet{
+            updateViews()
+        }
     }
-
+    
+    func updateViews() {
+        guard let movies = movies else {return}
+        titleLable.text = movies.title
+        ratingLabel.text = movies.overview
+        overviewLabel.text = " Rating: \(movies.rating) / 100"
+        movieImageView.image = movieImage
+    }
 }
+
+    
+    
+

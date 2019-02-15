@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		2E280EF722173AE7008F2D26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E280EF622173AE7008F2D26 /* AppDelegate.m */; };
-		2E280EFA22173AE7008F2D26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E280EF922173AE7008F2D26 /* ViewController.m */; };
 		2E280EFD22173AE7008F2D26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E280EFB22173AE7008F2D26 /* Main.storyboard */; };
 		2E280EFF22173AE8008F2D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E280EFE22173AE8008F2D26 /* Assets.xcassets */; };
 		2E280F0222173AE8008F2D26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E280F0022173AE8008F2D26 /* LaunchScreen.storyboard */; };
 		2E280F0522173AE8008F2D26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E280F0422173AE8008F2D26 /* main.m */; };
+		2E280F1422173B3C008F2D26 /* DSTMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E280F1322173B3C008F2D26 /* DSTMovie.m */; };
+		2E280F1722173B97008F2D26 /* DSTModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E280F1622173B97008F2D26 /* DSTModelController.m */; };
+		2E280F1A22173C93008F2D26 /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E280F1922173C93008F2D26 /* MovieListTableViewController.swift */; };
+		2E280F1D22173CD5008F2D26 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E280F1C22173CD5008F2D26 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E280EF222173AE7008F2D26 /* TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E280EF522173AE7008F2D26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E280EF622173AE7008F2D26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E280EF822173AE7008F2D26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E280EF922173AE7008F2D26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2E280EFC22173AE7008F2D26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E280EFE22173AE8008F2D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E280F0122173AE8008F2D26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E280F0322173AE8008F2D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E280F0422173AE8008F2D26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E280F1222173B3C008F2D26 /* DSTMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSTMovie.h; sourceTree = "<group>"; };
+		2E280F1322173B3C008F2D26 /* DSTMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSTMovie.m; sourceTree = "<group>"; };
+		2E280F1522173B97008F2D26 /* DSTModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSTModelController.h; sourceTree = "<group>"; };
+		2E280F1622173B97008F2D26 /* DSTModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSTModelController.m; sourceTree = "<group>"; };
+		2E280F1822173C92008F2D26 /* TEST-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TEST-Bridging-Header.h"; sourceTree = "<group>"; };
+		2E280F1922173C93008F2D26 /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		2E280F1C22173CD5008F2D26 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +68,76 @@
 			children = (
 				2E280EF522173AE7008F2D26 /* AppDelegate.h */,
 				2E280EF622173AE7008F2D26 /* AppDelegate.m */,
-				2E280EF822173AE7008F2D26 /* ViewController.h */,
-				2E280EF922173AE7008F2D26 /* ViewController.m */,
-				2E280EFB22173AE7008F2D26 /* Main.storyboard */,
+				2E280F1B22173CC9008F2D26 /* UI */,
+				2E280F1122173B20008F2D26 /* Controllers */,
+				2E280F0E22173B0C008F2D26 /* Model */,
+				2E280F0D22173B01008F2D26 /* Storyboard */,
+				2E280F0C22173AFB008F2D26 /* Resoures */,
+			);
+			path = TEST;
+			sourceTree = "<group>";
+		};
+		2E280F0C22173AFB008F2D26 /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
 				2E280EFE22173AE8008F2D26 /* Assets.xcassets */,
-				2E280F0022173AE8008F2D26 /* LaunchScreen.storyboard */,
 				2E280F0322173AE8008F2D26 /* Info.plist */,
 				2E280F0422173AE8008F2D26 /* main.m */,
 			);
-			path = TEST;
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		2E280F0D22173B01008F2D26 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2E280EFB22173AE7008F2D26 /* Main.storyboard */,
+				2E280F0022173AE8008F2D26 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2E280F0E22173B0C008F2D26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E280F1222173B3C008F2D26 /* DSTMovie.h */,
+				2E280F1322173B3C008F2D26 /* DSTMovie.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E280F0F22173B11008F2D26 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E280F1522173B97008F2D26 /* DSTModelController.h */,
+				2E280F1622173B97008F2D26 /* DSTModelController.m */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		2E280F1022173B19008F2D26 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E280F1922173C93008F2D26 /* MovieListTableViewController.swift */,
+				2E280F1822173C92008F2D26 /* TEST-Bridging-Header.h */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		2E280F1122173B20008F2D26 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E280F1022173B19008F2D26 /* View Controller */,
+				2E280F0F22173B11008F2D26 /* Model Controller */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2E280F1B22173CC9008F2D26 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2E280F1C22173CD5008F2D26 /* MovieTableViewCell.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +171,7 @@
 				TargetAttributes = {
 					2E280EF122173AE7008F2D26 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -141,9 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E280EFA22173AE7008F2D26 /* ViewController.m in Sources */,
 				2E280F0522173AE8008F2D26 /* main.m in Sources */,
+				2E280F1422173B3C008F2D26 /* DSTMovie.m in Sources */,
+				2E280F1D22173CD5008F2D26 /* MovieTableViewCell.swift in Sources */,
 				2E280EF722173AE7008F2D26 /* AppDelegate.m in Sources */,
+				2E280F1722173B97008F2D26 /* DSTModelController.m in Sources */,
+				2E280F1A22173C93008F2D26 /* MovieListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,15 +358,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9DGMQB3935;
-				INFOPLIST_FILE = TEST/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TEST/Resoures/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deniztutuncu.TEST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TEST/Controllers/View Controller/TEST-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -302,15 +379,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9DGMQB3935;
-				INFOPLIST_FILE = TEST/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TEST/Resoures/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deniztutuncu.TEST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TEST/Controllers/View Controller/TEST-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
